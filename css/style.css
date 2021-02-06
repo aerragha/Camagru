@@ -1,0 +1,589 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #E2E4E7;
+    background-size: 400% 400%;
+}
+
+.header 
+{
+    padding: 10px 16px;
+    background: #FF7077;
+    color: #f1f1f1;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.login-container
+{
+    z-index: 4;
+}
+
+.login-form
+{
+    max-width: 100%;
+    width: 370px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-control
+{
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500;
+}
+
+.form-control:focus
+{
+    border-color: #FF7077;
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.forget-link
+{
+    font-size: 13px;
+}
+
+
+
+.forget-link label
+{
+    margin-bottom: 0;
+}
+
+.login-form a
+{
+    text-decoration: none;
+    color: #FF7077;
+}
+
+.login-form a:hover
+{
+    color: #FFB067;
+}
+
+.btn-custom
+{
+    background: #FF7077;
+    border-color: #FF7077;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+
+.btn-custom:focus, .btn-custom:hover, .btn-custom:active, .btn-custom:active:focus
+{
+    background: #FFB067;
+    border-color: #FFB067;
+    color: #fff
+}
+
+.btn-custom:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.btns
+{
+    float: right;
+    padding-top: 4px;
+}
+
+.btn-header
+{
+    transition: 1s;
+    background: #FF7077;
+    min-height: 35px;
+}
+
+.btn-header:focus, .btn-header:hover, .btn-header:active, .btn-header:active:focus
+{
+    background: #FFB067;
+    border-color: white;
+    color: #fff
+}
+
+li
+{
+    display: inline;
+}
+li a
+{
+    color: white;
+    
+}
+.btns-si
+{
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 30px;
+}
+
+.forget
+{
+    font-size: 200%;
+}
+
+li a:hover
+{
+    color: white;
+}
+#title
+{
+    font-size: 28px;
+    display: inline;
+    color: white;
+}
+.title_link:hover
+{
+    text-decoration: none;
+}
+@media only screen and (max-width: 576px) {
+    .btns
+    {
+        margin-top: -20px;
+        margin-left: -20px;
+        float: left;
+        width: 100%;
+    }
+    .header 
+    {
+        text-align: center;
+        height: 100px;
+    }
+    #title
+    {
+        display: block;
+    }
+}
+
+.msg_err
+{
+    font-size: 120%;
+    color: #FF7077;
+}
+.msg_succ
+{
+    font-size: 120%;
+    color: green;
+}
+
+
+
+/* -----------  Page main  --------- */
+.post_div
+{
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+    background: white;
+}
+.post_img
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.user_img, .user_cmt_img, .user_log_img
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #FF7077;
+    object-fit: cover;
+}
+ .user_name
+ {
+    font-family: 'Hammersmith One', sans-serif;
+     font-weight: 600;
+     font-size: 90%;
+     color: #424242;
+ }
+ .date_pub
+ {
+    font-family: 'Hammersmith One', sans-serif;
+    color: #424242;
+    font-size: 80%;
+    float: right;
+    position: absolute;
+    top: 5%;
+    right: 12%;
+ }
+
+#like_ic, #comment_ic
+{ 
+    font-size: 150%;
+    color: #FFB067;
+}
+#like_ic:hover
+{
+    color: #FFB067;
+    cursor: pointer;
+}
+
+.text_com
+{
+    border: none;
+    display: inline;
+    resize: none;
+    font-size: 90%;
+}
+
+.text_com:focus
+{
+    box-shadow: 0 0 0 0 white;
+}
+hr
+{
+    margin-top: 5px;   
+}
+.comm_zone
+{
+    margin-top: -10px;
+}
+.btn_comm
+{
+    font-size: 100%;
+    width: 100%;
+    font-size: 80%;
+    font-weight: 100;
+    min-height: 3%;
+}
+.like_com_txt
+{
+    font-size: 90%;
+}
+
+.aff_cmt
+{
+    margin-top: -12px;
+    overflow: scroll;
+    height: 70px;
+    border:1px solid #666;
+    border-radius: 5px;
+}
+
+.user_cmt_img
+{
+    border-radius: 50%;
+    border: 2px solid #FF7077;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.user_cmt_name
+{
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 600;
+    font-size: 65%;
+    color: #424242;
+    position: relative;
+    top: -10px;
+}
+
+.user_cmt
+{
+    font-size: 60%;
+    text-align: justify;
+    position: relative;
+    top: -15px;
+    left: 43px;
+}
+/* ------------------------------- */
+/* -- User header -- */
+.user_log_img
+{
+    height: 33px;
+    width: 35px;
+    border: 2px solid white;
+}
+
+.table_menu
+{
+    display: none;
+    font-size: 100%;
+}
+
+#user:hover
+{
+    text-decoration: none;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover 
+{
+    background-color: #FF7077;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.list
+{
+    padding: 20px;
+}
+/* ------------- Profile page ----------- */
+
+
+.prof_content
+{
+    width: 100%;
+    background: #FFB067;
+    background: linear-gradient(3deg, #00B5B2, #0075A3);
+    background-size: 400% 400%;
+    animation: AnimationName 7s ease infinite;
+}
+
+
+.usr_profil_img
+{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+    transition: .1s linear;
+    object-fit: cover;
+}
+
+.usr_profil_img:hover
+{
+   
+    border: 10px solid #f1f1f1;
+}
+
+@keyframes AnimationName { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.user_name_txt
+{
+    font-family: 'Hammersmith One', sans-serif;
+    color: white;
+    font-size: 200%;
+}
+.btn-light
+{
+    width: 50%;
+    background-color: #FF7077;
+    border-color: #FF7077;
+    color: white;
+    font-size: 80%;
+}
+.post_img_2
+{
+
+    width: 100%;
+    border-radius: 10px;
+    border: 1px white solid;
+    /*box-shadow: 3px 4px #666;*/
+}   
+
+.containere 
+{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.containere img 
+{
+    vertical-align: middle;
+}
+  
+.containere .content 
+{
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 4;
+}
+.containere .content:hover
+{
+    z-index: 1;
+    opacity: 1;
+}
+.cmt_like_ic
+{
+    text-align: center;
+    position: relative;
+    top: 48%;
+}
+
+/* ------ camera page style -------- */
+
+.upfile_div, .camera_div
+{
+    display: none;
+}
+
+#video, #canvas
+{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.camera_div, .myimg_div
+{
+    
+    border-radius: 10px;
+    background: #4E8397;
+    border: 2px solid #FF7077;
+    transition: 3s linear;
+}
+.myimg_div
+{
+    overflow: scroll;
+    height: 500px;
+}
+
+#canvas
+{
+    width: 100%;
+}
+
+/* - ------ activation div --- */
+.active_div
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: none;
+}
+.activi-container
+{
+    padding: 10%;
+    margin-top: 25%;
+    border: 2px solid #666;
+    border-radius: 15px;
+}
+.activi_txt img
+{
+    width: 10%;
+}
+.activi_txt h2
+{
+    font-size: 100%;
+}
+.activi_txt a
+{
+    width: 40%;
+}
+
+/* ---- pour activation page ----- */
+
+#activer, #deja_activer
+{
+    display: none;
+}
+
+/* --------------------- */
+
+#notif
+{
+    transform: scale(1.4);
+}
+
+.delete, .delete:hover
+{
+    color: white;
+}
+/* ------ camera style ------ */
+
+#canvas2
+{
+    width: 100%;
+    display: none;
+} 
+
+#snap_effect, #up_effect
+{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    display: none;
+    transition: 0.2s linear;
+}
+.filter_canva
+{
+    position: relative;
+    overflow: hidden;
+}
+
+/* ------ Footer -------*/
+
+.footer
+{
+    background: #FF7077;
+    color: white;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    font-size: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+.footer a
+{
+    color: white;
+}
+
+#container
+{
+    margin-bottom: 73px;
+}
+
+.table_cmt
+{
+    width: 100%;
+}
